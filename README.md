@@ -1,4 +1,4 @@
-# 00-Introduction, Setup
+# 00-Introduction, Setup  
 
 ## Introduction  
 $\textbf{Course}$  
@@ -14,7 +14,7 @@ $\textbf{Teaching Assistant}$
 Lin Tun Naing  
 
 $\textbf{Lab Session Outlines}$  
-00 - Introduction, 
+00 - Introduction  
 01 - Setup and Python Basics  
 02 - Intermediate Python and Pytorch  
 03 - Neural Networks and Convolutional Neural Networks  
