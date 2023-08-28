@@ -92,3 +92,52 @@ $\textbf{References}$
 4. seaborn
 5. opencv
 6. setuptools
+
+### How to install Git
+
+Please follow the instruction from below link. Complete until the step 3. If you want to understand more about Git, you can complete all steps but not necessary. 
+It is recommended to create the Git account with your own personal email address since you will be using throughout your career even after your degree.  
+https://www.freecodecamp.org/news/introduction-to-git-and-github/  
+
+### How to clone a Git Repository
+
+https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository
+
+Follow the above link and try cloning my Deep Learning for Computer Vision Lab Repository.  
+https://github.com/l-kuo/DLCV-Lab  
+
+
+### How to put a screenshot in Jupyter Notebook Markdown
+
+The following steps are the easiest way to put a screenshot in your Jupyter Markdown cell.  
+
+##### Step1
+- Add a new cell at a location where you want to put the screenshot. Notice that you have to select an existing cell before adding. A new cell will appear just below the cell you selected.
+
+<img src='img/step1.png' alt="Step 1" width="600px" style="float: center" />
+<br clear="left" />  
+
+##### Step2
+- Select the new cell and change the type of the cell by choosing "Markdown" on the task bar dropdown.
+
+<img src='img/step2.png' alt="Step 2" width="600px" style="float: center" />
+<br clear="left" />  
+
+##### Step3
+- Under the "Edit" tab, choose the "Insert Image" while selecting the cell.
+
+<img src='img/step3.png' alt="Step 3" width="300px" style="float: center" />
+<br clear="left" />  
+
+##### Step4
+- Click on "Choose File" and select your screenshot from your local directory. Then click "OK".
+
+<img src='img/step4.png' alt="Step 4" width="600px" style="float: center" />
+<br clear="left" />  
+
+##### Step5
+- When you have selected the screenshot image, the script inside the red rectangle will appear automatically. Once you run the cell, you will get the screenshot image shown in your markdown file.
+
+<img src='img/step5.png' alt="Step 5" width="600px" style="float: center" />
+<br clear="left" />  
+
