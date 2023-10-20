@@ -14,12 +14,12 @@ $\textbf{Teaching Assistant}$
 Lin Tun Naing  
 
 $\textbf{Lab Session Outlines}$  
-00 - Introduction  
-01 - Setup and Python Basics  
-02 - Intermediate Python and Pytorch  
-03 - Neural Networks and Convolutional Neural Networks  
-04 - AlexNet, GoogLeNet  
-05 - ResNet  
+00 - Introduction and Setup  
+01 - Python Basics  
+02 - Deep Learning and Neural Networks  
+03 - Basic Convolutional Neural Networks and Pytorch  
+04 - AlexNet and GoogLeNet  
+05 - ResNet and SENet  
 06 - YOLO  
 07 - Mask R-CNN, UNet  
 08 - Vision Transformers  
