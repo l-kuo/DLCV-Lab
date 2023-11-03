@@ -21,7 +21,7 @@ $\textbf{Lab Session Outlines}$
 04 - AlexNet and GoogLeNet  
 05 - ResNet and SENet  
 06 - YOLO  
-07 - Mask R-CNN, UNet  
+07 - Mask R-CNN and UNet  
 08 - Vision Transformers  
 09 - Generative Adversarial Networks  
 10 - 3D Convolutional Neural Networks  
