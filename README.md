@@ -22,13 +22,13 @@ $\textbf{Lab Session Outlines}$
 05 - ResNet and SENet  
 06 - YOLO  
 07 - Mask R-CNN and UNet  
-08 - Vision Transformers  
+08 - Vision Transformer  
 09 - Generative Adversarial Networks  
 10 - 3D Convolutional Neural Networks  
 
 $\textbf{References}$  
-- https://github.com/Alisa-Kunapinun/Deep-learning-for-Computer-Vision-Aug-2022  from Dr.Alisa Kunapinun
-- https://github.com/dsai-asia/RTML/  from Prof.Matthew N. Dailey
+- https://github.com/Alisa-Kunapinun/Deep-learning-for-Computer-Vision-Aug-2022  by Dr.Alisa Kunapinun
+- https://github.com/dsai-asia/RTML/  by Prof.Matthew N. Dailey
 - https://www.learnbyexample.org/python-introduction/
 - https://www.geeksforgeeks.org/  
 - Coursera - Deep Learning Specialization  
