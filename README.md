@@ -55,7 +55,7 @@ When you start the setup from the scratch with any of Windows, Linux or Mac OS, 
 - You can also check `python` or `python3` in your (conda prompt) terminal or command line before installing Python3 in your laptop. It will prompt you to the Python3 interpreter.  
 - To exit from Python3 interpreter, simple type `exit` or `exit()`.
 
-<img src="img/pythonInstaller.png" alt="Python" width="500px" style="float: center" />
+<img src="img/pythonInstaller.PNG" alt="Python" width="500px" style="float: center" />
 <br clear="left" />
 
 - While installing Python from `.exe` file, make sure you tick the add Python to PATH box or you will not be able to access Python from the windows terminal.  
