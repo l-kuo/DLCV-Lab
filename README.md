@@ -86,23 +86,47 @@ When you start the setup from the scratch with any of Windows, Linux or Mac OS, 
 **For MacOS Users**
 - Please follow the instruction from https://www.datacamp.com/blog/how-to-install-python.  
 
-**For All Users**
-- To check Python version in terminal: `python3 --version` or `python3 -v`
+**Conda Installation for All Users**
+- To check Python version in terminal: `python --version` or `python -v`
 - To install miniconda, please follow the instructions from https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links and select the download file according to your operating system.
-- Once installed miniconda, you will be able to run conda command in the terminal (miniconda )
+- Don't forget to add Miniconda into PATH Environment Variable. See the figure below:
+<img src='img/miniconda-add-path.png' alt="Miniconda-Add-Path" width="500px" style="float: center" />
+<br clear="left" /> 
+
+- Once installed miniconda, you will be able to run conda command in the Anaconda Prompt (miniconda).
+- In the Anaconda Prompt, you are directed to the conda (base) environment. If you would like to create your own custom environment, you need to first exit the default (base) environment using `conda deactivate` command.
+<img src='img/deactivate-base.png' alt="Deactivate-Base" width="500px" style="float: center" />
+<br clear="left" />
+
+- After you get out of the default env, in order to create a custom env name eg.`myconda` with built-in python installed, use the command `conda create -n myConda python` or specify the version of python `conda create -n myConda python==3.12.4`.
+- `conda env list` command will show all the conda environments you have in your machine. You can simply activate the environment using `conda activate EnvName` eg. `conda activate myConda`.
+<img src='img/conda-activate.png' alt="Conda-Activate" width="500px" style="float: center" />
+<br clear="left" />
+
 - To check installed python packages in the terminal, please use the command `conda list` for conda.
 - To install a python library or package from conda: `conda install package_name`, eg. `conda install numpy`
 - To install jupyter notebook: `conda install jupyter`.
 - To run jupyter notebook, open terminal and go to the directory you want to run jupyter notebook, type the command `jupyter notebook`
 
-**CUDA Installation**  
-- If you are using your own GPU, you might need to install CUDA https://developer.nvidia.com/cuda-downloads. Select the appropriate CUDA version that is compatible with your GPU. This is essential for GPU processing and training models.
-  
+**CUDA Toolkit and CuDNN Installation with Conda**
+- Before installing the CUDA, first check your available GPU whether it is compatible with CUDA installation. Try `wmic path win32_VideoController get name` in your terminal and check if your GPU is NVIDIA RTX or GTX Series. Mac users or the users with GPUs other than NVIDIA RTX or GTX Series are not compatible with CUDA.
+<img src='img/gpu.png' alt="GPU" width="500px" style="float: center" />
+<br clear="left" />
+
+- If your machine is compatible, run `conda install -c conda-forge cudatoolkit` and then `conda install -c conda-forge cudnn` inside your conda environment. The latest version of CUDA Toolkit in conda-forge to date is cudatoolkit-11.8.0 and that of CuDNN is cudnn-9.2.1.18.
+
 **Pytorch Installation**  
-- Another important package is Pytorch. You can follow the instructions from https://pytorch.org/get-started/locally/ and install with CUDA versions.
+- Another important package is Pytorch. You can follow the instructions from https://pytorch.org/get-started/locally/ and install with CUDA versions(here in conda env, we have CUDA 11.8).
+<img src='img/pytorch.png' alt="Pytorch" width="500px" style="float: center" />
+<br clear="left" />
+
+- Those who are not using the CUDA, you can simply use the CPU Pytorch Installation.
+- Finally, in Python Interpreter, type `import torch`, then `torch.cuda.is_available()` will return `True` for the CUDA users and `False` for the CPU users.
+<img src='img/cuda-available.png' alt="CUDA Available" width="500px" style="float: center" />
+<br clear="left" />
 
 **Some Other Useful Packages You Might Want to Install**
-The followings are some important packages or libraries however most of them are sometimes dependencies of other packages that you have installed.
+The followings are some important packages or libraries however most of them are sometimes dependencies of other packages that you have installed. But make sure that you can handle the version mismatch issue properly while installing the python libraries and dependencies.
 1. numpy
 2. pandas
 3. matplotlib
@@ -130,7 +154,7 @@ Now we are going to play around with a famous Object Detection Model called YOLO
 - You can run the python extension file in the commandline or terminal using `python yolov8_inference.py`.
 - It will show up the results like below. If you pass the video file or even livestream, the model can detect and classify the objects in real-time.
 
-<img src='img/results.png' alt="Step 1" width="900px" style="float: center" />
+<img src='img/results.png' alt="Results" width="900px" style="float: center" />
 <br clear="left" />  
 
 #### How to put a screenshot in Jupyter Notebook Markdown
