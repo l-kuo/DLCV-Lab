@@ -1,2 +1,0 @@
-This is the lab session of deep learning for computer vision course. This course is offering on Mondays and Fridays.
-We are now having a lab session for Python basics.

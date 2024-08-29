@@ -1,3 +1,0 @@
-
-I am happy.
-I am happy with Python.

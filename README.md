@@ -157,7 +157,7 @@ Now we are going to play around with a famous Object Detection Model called YOLO
 <img src='img/results.png' alt="Results" width="900px" style="float: center" />
 <br clear="left" />  
 
-#### How to put a screenshot in Jupyter Notebook Markdown
+#### How to Put a Screenshot in Jupyter Notebook Markdown
 
 The following steps are the easiest way to put a screenshot in your Jupyter Markdown cell.  
 
