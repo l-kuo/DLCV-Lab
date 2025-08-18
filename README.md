@@ -21,8 +21,8 @@ $\textbf{Lab Session Outlines}$
 07 - Mask R-CNN and UNet  
 08 - Vision Transformer  
 09 - Generative Adversarial Networks  
-10 - 3D Deep Neural Networks  
-11 - Contrastive Language-Image Pretraining  
+10 - Contrastive Language-Image Pretraining(CLIP)  
+11 - Diffusion Models
 
 $\textbf{References}$  
 - https://github.com/Alisa-Kunapinun/Deep-learning-for-Computer-Vision-Aug-2022  by Dr.Alisa Kunapinun
