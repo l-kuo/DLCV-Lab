@@ -18,11 +18,9 @@ $\textbf{Lab Session Outlines}$
 04 - AlexNet and GoogLeNet  
 05 - ResNet and SENet  
 06 - YOLO  
-07 - Mask R-CNN and UNet  
-08 - Vision Transformer  
-09 - Generative Adversarial Networks  
-10 - Contrastive Language-Image Pretraining(CLIP)  
-11 - Diffusion Models
+07 - Vision Transformer  
+08 - Generative Adversarial Networks  
+09 - Contrastive Language-Image Pretraining(CLIP)  
 
 $\textbf{References}$  
 - https://github.com/Alisa-Kunapinun/Deep-learning-for-Computer-Vision-Aug-2022  by Dr.Alisa Kunapinun
