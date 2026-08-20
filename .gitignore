@@ -1,1 +1,35 @@
+# data & checkpoints
+data/
+datasets/
+checkpoints/
+runs/
+lora_data/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.weights
+*.onnx
+
+# notebook & python cruft
 .ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# HF / torch caches
+.cache/
+~/.cache/
+
+# editors & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# logs
+logs/
+wandb/
+events.out.tfevents.*

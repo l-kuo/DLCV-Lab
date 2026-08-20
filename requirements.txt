@@ -1,0 +1,39 @@
+# Deep Learning for Computer Vision - AIT, August 2026
+# Local install:  pip install -r requirements.txt
+# On Colab most of this is preinstalled; each lab installs its extras in cell 1.
+
+# --- core (all labs) ---
+
+numpy>=1.26
+matplotlib>=3.8
+pillow>=10.0
+tqdm>=4.66
+
+# --- labs 02-05 ---
+scikit-learn>=1.4
+scikit-image>=0.22
+opencv-python>=4.9
+pandas>=2.2
+seaborn>=0.13
+torchinfo>=1.8
+tensorboard>=2.16
+
+# --- labs 04-06, 11: model zoo ---
+timm>=1.0
+
+# --- lab 07: detection ---
+ultralytics>=8.3
+scipy>=1.12
+pycocotools>=2.0.7
+
+# --- labs 08, 10, 11: HuggingFace stack ---
+transformers>=4.44
+diffusers>=0.30
+accelerate>=0.33
+peft>=0.12
+safetensors>=0.4
+datasets>=2.20
+huggingface_hub>=0.24
+
+# --- optional ---
+albumentations>=1.4
