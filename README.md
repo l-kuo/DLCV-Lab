@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Lecturer** | Assoc. Prof. Dr. Mongkol Ekpanyapong |
+| **Lecturer** | Prof. Dr. Mongkol Ekpanyapong |
 | **Teaching Assistant** | Lin Tun Naing |
 | **Language** | Python 3.11 · PyTorch |
 | **Compute** | Google Colab free tier (NVIDIA T4, 16 GB) |
